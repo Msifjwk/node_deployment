@@ -1,0 +1,4 @@
+{"_id":{"$oid":"609f3a1e47816991e4cb3e75"},"price":200,"name":"Samuel","picture":"uabc.jpg","category":"phones","description":"IPhone 12","__v":0}
+{"_id":{"$oid":"609f3fba3d1b1b836c1f5f80"},"price":300,"name":"Gerardo","picture":"Funda.jpg","category":"accesories","description":"Funda de celular","__v":0}
+{"_id":{"$oid":"609f409a3d1b1b836c1f5f81"},"price":300,"name":"Ricardo","picture":"phone.jpg","category":"phones","description":"Samsung s10","__v":0}
+{"_id":{"$oid":"60b59205f3c8b12348c5b2f0"},"price":500,"name":"Daniela","picture":"Funda.jpg","category":"accesories","description":"Funda","__v":0}
