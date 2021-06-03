@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 
 //Conexion a BD y levantar Servidor
-mongoose.connect(process.env.DB_URL || "mongodb://localhost/mytest2",{
+mongoose.connect(process.env.DB_URL,{
     useNewUrlParser: true,
     useCreateIndex: true ,
     useUnifiedTopology: true,
