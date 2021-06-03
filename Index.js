@@ -1,7 +1,6 @@
 /*jshint esversion: 6 */ 
 
 const express    = require('express');
-const path = require('path');
 const bodyParser = require('body-parser');
 const mongoose   = require('mongoose');
 const hbs = require('express-handlebars');
@@ -17,7 +16,6 @@ app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 
 //Conexion a BD y levantar Servidor
-mongoose.Promise = global.Promise;
 mongoose.connect(process.env.DB_URL,{
     useNewUrlParser: true,
     useCreateIndex: true ,
