@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specifid\" && exit",
-    "desarrollo":"nodemon ./index.js",
-    "start": "node ./index.js"
+    "desarrollo":"nodemon index.js",
+    "start": "node index.js"
   },
   "author": "SCM",
   "license": "ISC",
